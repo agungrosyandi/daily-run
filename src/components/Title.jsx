@@ -1,7 +1,7 @@
-export default function Title({ locked }) {
+export default function Title() {
   return (
-    <h1 className="text-4xl font-RobotoBold font-bold">{`${
-      locked ? "Buy Premium" : "Daily Run testing"
-    }`}</h1>
+    <h1 className="text-4xl text-lime-400 font-RobotoBold font-bold tabletMinWidth:text-6xl laptopMinWidth:text-7xl desktopMinWidth:text-5xl">
+      Let's Running
+    </h1>
   );
 }

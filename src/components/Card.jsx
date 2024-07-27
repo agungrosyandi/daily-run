@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import Count from './Count';
-import ButtonContainer from './ButtonContainer';
-import ResetButton from './ResetButton';
-import Title from './Title';
-import CountButton from './CountButton';
+import { useState } from "react";
+import Count from "./Count";
+import ButtonContainer from "./ButtonContainer";
+import ResetButton from "./ResetButton";
+import Title from "./Title";
+import CountButton from "./CountButton";
 
 export default function Card() {
   const [count, setCount] = useState(0);
@@ -15,8 +15,8 @@ export default function Card() {
       <div
         className={`bg-zinc-100 flex flex-col items-center w-[90%] h-[90%] rounded-xl shadow-xl duration-500 ${
           locked
-            ? 'bg-zinc-200 flex flex-col items-center w-[90%] h-[90%] rounded-xl shadow-xl'
-            : ''
+            ? "bg-zinc-200 flex flex-col items-center w-[90%] h-[90%] rounded-xl shadow-xl"
+            : ""
         } `}
       >
         <div className="flex flex-[2_1_0%] w-full h-full flex-col justify-center items-center gap-5 p-5">
